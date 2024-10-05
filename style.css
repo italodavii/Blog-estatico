@@ -286,6 +286,11 @@ footer p{
         text-align: center;
     }
 }
+@media screen and (max-width: 415px) {
+    footer{
+        font-size: 10px;
+    }
+}
 @media screen and (max-width: 400px) {
     #logo{
         display: none;
@@ -295,17 +300,7 @@ footer p{
     }
 }
 @media screen and (max-width: 385px) {
-    footer{
-        font-size: 10px;
-        height: 100px;
-    }
     .assunto img{
         width: 100px;
     }
-    
-}
-@media screen and (max-width: 320px) {
-    footer{
-        font-size: 8px;
-    }    
 }
